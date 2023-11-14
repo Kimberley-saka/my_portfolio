@@ -1,8 +1,15 @@
 export default function HomePage() {
-    return(
+  return(
+    <div className="flex flex-col justify-center items-center mt-52
+    ">
         <div>
-
-            <p>Home</p>
+          Hello, I'm Kimberley
         </div>
-    )
+
+        <div>
+          A Geospatial Analyst and Backend Developer
+        </div>
+          
+      </div>
+  )
 }

@@ -2,7 +2,7 @@ export default function AboutPage() {
     return(
         <div>
 
-            <p>Home</p>
+            <p>About</p>
         </div>
     )
 }

@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/*
 body{
     background-image: url('/src/assets/pexels-luis-kuthe-4695929.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70%;
+    background-position: 50% ;
 }
+*/

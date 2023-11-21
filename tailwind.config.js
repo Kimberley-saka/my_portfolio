@@ -5,6 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+
+    },
     extend: {
       backgroundImage: {
         'galaxy': "url('/src/assets/pexels-luis-kuthe-4695929.jpg')",

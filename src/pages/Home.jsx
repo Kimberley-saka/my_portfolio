@@ -2,7 +2,7 @@ export default function HomePage() {
   return(
     <div className="flex flex-col">
       <div className=" flex flex-col justify-center items-center py-60
-      bg-contain h-full text-white">
+     h-full text-white bg-galaxy bg-cover">
         <div>
         <div>
           Hello I'm Kimberley Saka

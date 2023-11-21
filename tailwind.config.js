@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'galaxy': "url('/src/assets/pexels-luis-kuthe-4695929.jpg')",
+      }
+    },
   },
   plugins: [],
   darkMode: 'class',

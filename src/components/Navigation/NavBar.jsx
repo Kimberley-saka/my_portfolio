@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom"
 export default function NavBar() {
   return(
-    <div className="flex flex-row justify-between items-center h-20 bg-lime-200 px-28">
+    <div className="flex flex-row justify-between items-center h-20 px-28
+     text-white">
         <div className="flex text-2xl font-bold">
-          <Link to="/">Kimberley Saka</Link>
+          <Link to="/">KS</Link>
         </div>
 
         <div className="hidden flex-row justify-between w-2/6 px-2
-        bg-slate-200 md:flex" >
+       md:flex" >
           <Link to="/about">About</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/geospatial">Geospatial</Link>

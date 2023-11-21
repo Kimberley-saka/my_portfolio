@@ -1,13 +1,32 @@
 export default function HomePage() {
   return(
-    <div className="flex flex-col justify-center items-center mt-52
-    ">
+    <div className="flex flex-col">
+      <div className=" flex flex-col justify-center items-center py-60
+      bg-contain h-full text-white">
         <div>
-          Hello, I'm Kimberley
+        <div>
+          Hello I'm Kimberley Saka
         </div>
 
         <div>
           A Geospatial Analyst and Backend Developer
+        </div>
+
+        </div> 
+
+      </div>
+
+
+        <div className="flex flex-co px-28 pt-10">
+          <div className="text-2xl ">
+            Precent Projects
+          </div>
+
+          <div>
+
+          </div>
+
+
         </div>
           
       </div>

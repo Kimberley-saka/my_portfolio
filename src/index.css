@@ -5,4 +5,8 @@
 
 body{
     font-family: 'League Spartan', sans-serif;
+
+    background-image: url('/src/assets/pexels-luis-kuthe-4695929.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

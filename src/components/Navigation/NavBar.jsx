@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 export default function NavBar() {
   return(
-    <div className="flex flex-row justify-between items-center h-20 px-28
+    <div className="flex flex-row justify-between items-center h-20 md:px-28
      text-white text-lg">
-        <div className="flex text-3`xl font-bold">
+        <div className="flex text-3xl font-bold">
           <Link to="/">KS</Link>
         </div>
 

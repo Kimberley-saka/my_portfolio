@@ -7,7 +7,7 @@ export default function NavBar() {
           <Link to="/">KS</Link>
         </div>
 
-        <div className="hidden md:flex space-x-12 items-center" >
+        <div className="hidden md:flex space-x-12 items-center  text-lg" >
           <Link to="/projects" className="
           hover:transform hover:scale-110 transition-transform">Projects</Link>
           <Link to="/about"

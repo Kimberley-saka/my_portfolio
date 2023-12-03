@@ -13,7 +13,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-3xl md:text-6xl">
-            <p>I am a Backend Developer &amp; </p>
+            <p>A Backend Developer &amp; </p>
             <p>a Geospatial Analyst</p>
           </div>
 
@@ -23,7 +23,7 @@ export default function HomePage() {
             transition-transform w-40 h-10 flex justify-center items-center">
              See My Work
             </Link>
-            <Link to="/contact" className="rounded-full border hover:transform hover:scale-110
+            <Link to="/about" className="rounded-full border hover:transform hover:scale-110
             transition-transform w-40 h-10 flex justify-center items-center">
             Tell me More
             </Link>
@@ -38,7 +38,8 @@ export default function HomePage() {
           </svg>
         </a>
 
-        <a href="https://www.linkedin.com/in/kimberleysaka" className="hover:transform hover:scale-110 transition-transform">
+        <a href="https://www.linkedin.com/in/kimberleysaka" target="_blank" rel="noopener noreferrer"
+        className="hover:transform hover:scale-110 transition-transform">
           <svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 9V17" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
             <path d="M11 13V17M11 13C11 11.3431 12.3431 10 14 10C15.6569 10 17 11.3431 17 13V17M11 13V9" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
@@ -47,8 +48,8 @@ export default function HomePage() {
           </svg>
         </a>
 
-        <a href="https://discord.com/users/kimmyrpo_34448_98719" className="
-          hover:transform hover:scale-110 transition-transform">
+        <a href="https://discord.com/users/kimmyrpo_34448_98719" target="_blank" rel="noopener noreferrer"
+        className="hover:transform hover:scale-110 transition-transform">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 7C10.8889 5.66667 13.1111 5.66667 17 7" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
             <path d="M7 17C10.5 18.3333 13.5 18.3333 17 17" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>

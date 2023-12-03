@@ -1,7 +1,7 @@
 import NavBar from "./components/Navigation/NavBar";
-import Projects from "./components/Projects";
 import HomePage from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
+import Projects from "./pages/Projects";
 
 export default function App() {
   return(

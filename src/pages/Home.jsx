@@ -13,17 +13,17 @@ export default function HomePage() {
           </div>
 
           <div className="text-3xl md:text-6xl">
-            <p>A Backend Developer &amp; </p>
+            <p>A Backend Developer <span className="text-cyan-400">&amp;</span></p>
             <p>a Geospatial Analyst</p>
           </div>
 
           <div className="flex flex-col space-y-8 
             md:space-x-12 text-lg md:flex-row md:space-y-0">
-            <Link to="/projects" className="rounded-full border hover:transform hover:scale-110
+            <Link to="/projects" className="rounded-full border-2 border-cyan-400 hover:transform hover:scale-110
             transition-transform w-40 h-10 flex justify-center items-center">
              See My Work
             </Link>
-            <Link to="/about" className="rounded-full border hover:transform hover:scale-110
+            <Link to="/about" className="rounded-full border-2 border-cyan-400 hover:transform hover:scale-110
             transition-transform w-40 h-10 flex justify-center items-center">
             Tell me More
             </Link>

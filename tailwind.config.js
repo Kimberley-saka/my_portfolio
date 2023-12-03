@@ -15,7 +15,12 @@ export default {
     extend: {
       backgroundImage: {
         'galaxy': "url('/src/assets/pexels-luis-kuthe-4695929.jpg')",
-      }
+      },
+
+      colors: {
+        'blue-gray-800': '#1E293B',
+        'blue-gray-50': '#E4E7EB',
+      },
     },
   },
   plugins: [],

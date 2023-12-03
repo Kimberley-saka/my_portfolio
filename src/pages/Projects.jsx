@@ -74,7 +74,7 @@ export default function Projects() {
       <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-cyan-500
       hover:border-cyan-300 transition-colors duration-200">
       <div className="flex flex-row justify-end items-end space-x-3">
-          <a href="https://github.com/Kimberley-saka/geoportal_backend"
+          <a href="https://github.com/Kimberley-saka/geobrainroom"
           target="_blank" rel="noopener noreferrer">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10 20.5675C6.57143 21.7248 3.71429 20.5675 2 17" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -107,7 +107,7 @@ export default function Projects() {
       <div className="flex flex-col space-y-3 space-x-0 md:flex-row md:space-x-6"> 
       
         <div className="flex items-start font-bold md:w-2/5"> 
-            Geospatiol Data Portal
+            GeoBrainRoom
         </div>
 
         <div className="flex flex-col space-y-3">

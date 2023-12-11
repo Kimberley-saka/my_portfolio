@@ -1,7 +1,7 @@
 
 export default function Projects() {
   return (
-    <div className="flex flex-col space-y-3 md:space-y-20 md:text-lg md:my-14 md:px-28">
+    <div className="flex flex-col space-y-8 mt-8 md:space-y-20 md:text-lg md:my-14 md:mx-28">
       <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-teal-600
       hover:border-teal-400 transition-colors duration-200 ">
       <div className="flex flex-row justify-end items-end space-x-3">

@@ -19,7 +19,8 @@ export default {
 
       colors: {
         'blue-gray-800': '#1E293B',
-        'blue-gray-50': '#E4E7EB',
+        'blueish-gray': '#DEE5F2',
+
       },
     },
   },

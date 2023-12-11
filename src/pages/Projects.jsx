@@ -2,8 +2,8 @@
 export default function Projects() {
   return (
     <div className="flex flex-col space-y-3 md:space-y-20 md:text-lg md:my-14 md:px-28">
-      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-cyan-500
-      hover:border-cyan-300 transition-colors duration-200">
+      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-teal-600
+      hover:border-teal-400 transition-colors duration-200 ">
       <div className="flex flex-row justify-end items-end space-x-3">
           <a href="https://github.com/Kimberley-saka/geoportal_backend"
           target="_blank" rel="noopener noreferrer">
@@ -51,13 +51,13 @@ export default function Projects() {
 
           <div className="grid grid-flow-row grid-cols-2 gap-x-0 gap-y-4 text-sm
             md:space-x-4 md:flex md:flex-row md:text-lg">
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-20 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-20 h-7">
               React</p>
-              <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-24 h-7 md:w-28">
+              <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-24 h-7 md:w-28">
               Tailwind CSS</p>
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-24 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-24 h-7">
               Geodjango</p>
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-20 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-20 h-7">
               Postgres</p>
           </div>
         
@@ -71,8 +71,8 @@ export default function Projects() {
 
 
 
-      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-cyan-500
-      hover:border-cyan-300 transition-colors duration-200">
+      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-teal-500
+      hover:border-teal-300 transition-colors duration-200">
       <div className="flex flex-row justify-end items-end space-x-3">
           <a href="https://github.com/Kimberley-saka/geobrainroom"
           target="_blank" rel="noopener noreferrer">
@@ -120,13 +120,13 @@ export default function Projects() {
 
           <div className="grid grid-flow-row grid-cols-2 gap-x-0 gap-y-4 text-sm
             md:space-x-4 md:flex md:flex-row md:text-lg">
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-20 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-20 h-7">
               React</p>
-              <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-24 h-7 md:w-28">
+              <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-24 h-7 md:w-28">
               Tailwind CSS</p>
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-24 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-24 h-7">
               Geodjango</p>
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-20 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-20 h-7">
               Postgres</p>
           </div>
         
@@ -140,8 +140,8 @@ export default function Projects() {
 
 
 
-      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-cyan-500
-      hover:border-cyan-300 transition-colors duration-200">
+      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-teal-500
+      hover:border-teal-300 transition-colors duration-200">
       <div className="flex flex-row justify-end items-end space-x-3">
           <a href="https://github.com/Kimberley-saka/geoportal_backend"
           target="_blank" rel="noopener noreferrer">
@@ -189,13 +189,13 @@ export default function Projects() {
 
           <div className="grid grid-flow-row grid-cols-2 gap-x-0 gap-y-4 text-sm
             md:space-x-4 md:flex md:flex-row md:text-lg">
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-20 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-20 h-7">
               React</p>
-              <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-24 h-7 md:w-28">
+              <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-24 h-7 md:w-28">
               Tailwind CSS</p>
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-24 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-24 h-7">
               Geodjango</p>
-            <p className=" flex justify-center items-center border-2 border-cyan-400 rounded-full w-20 h-7">
+            <p className=" flex justify-center items-center border-2 border-teal-600 rounded-full w-20 h-7">
               Postgres</p>
           </div>
         

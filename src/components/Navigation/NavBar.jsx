@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 export default function NavBar() {
   return(
     <div className="flex flex-row justify-between items-center h-20 md:px-28
-     text-cyan-400 text-lg">
+     text-teal-600 text-lg">
         <div className="flex text-3xl font-bold hover:transform hover:scale-110 transition-transform">
           <Link to="/">KS</Link>
         </div>

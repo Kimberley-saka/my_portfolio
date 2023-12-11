@@ -9,9 +9,5 @@ body{
     margin: 0;
     font-family: 'League Spartan', sans-serif;
     color: white;
-    background-image: url('/src/assets/pexels-luis-kuthe-4695929.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
+    background-color: #111827
 }

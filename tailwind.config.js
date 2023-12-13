@@ -14,9 +14,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'galaxy': "url('/src/assets/images/bg-about.jpg)",
-        
-      },
+        'galaxy': "url('/assets/images/bg-about.jpg')",
+    },
 
       colors: {
         'blue-gray-800': '#1E293B',

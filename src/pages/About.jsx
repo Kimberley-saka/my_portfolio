@@ -3,16 +3,20 @@ import React from 'react'
 function About() {
   return (
     <div className='flex flex-col-reverse text-lg mt-8 
-    border-2 md:flex-row md:space-x-10 md:mx-28 md:my-14'>
+    md:flex-row  md:mx-28 md:my-14'>
       <div className='flex md:h-2/3 md:w-1/2 '>
-        <img src='/src/assets/images/kim.jpeg' className='object-cover'></img>
+        <img src='/assets/images/kim.jpeg' className='object-cover'></img>
       </div>
 
-      <div className='flex flex-col md:w-3/4 bg-galaxy md:px-8 md:pt-8'>
+      <div className='flex flex-col bg-galaxy bg-contain md:w-3/4 md:px-8 md:pt-8'>
         <p>Hi, I&apos;m Kimberley Saka—a passionate Software Engineer from Malawi.
-          I thrive on turning code into solutions, specializing in Python,
-          SQL, and crafting RESTful APIs with Flask and Django.
-          With a Geographic Information Systems background, I bring a
+          I thrive on turning code into solutions, specializing in <span
+          className='text-teal-500'>Python</span>, <span className='text-teal-500'>
+          JavaScrit</span>, <span className='text-teal-500'>React</span>, <span
+          className='text-teal-500'>SQL</span> and crafting <span
+          className='text-teal-500'>RESTful APIs </span> with <span
+          className='text-teal-500'>Flask</span> and <span  className='text-teal-500'>Django</span>.
+          With a Geographic Information Science background, I bring a
           unique blend of skills to the table.
           </p>
 

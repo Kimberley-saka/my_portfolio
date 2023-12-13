@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 function About() {
   return (
@@ -25,12 +25,13 @@ function About() {
             and enhancing my problem-solving skills. My journey reflects
             not just expertise but an unwavering passion 
             for creating meaningful software solutions. I&apos;m also diving
-            into the world of Java, adding another layer to my programming prowess
+            into the world of Java, adding another layer to my programming prowess.
             </p>
 
-            <p className='pt-2'>Let&apos;s connect and explore 
-              the endless possibilities that my
-              enthusiasm for software engineering can bring to your projects!</p>
+            <Link to="/contact" className="rounded-full border-2 my-10 border-teal-600 hover:transform hover:scale-110
+            transition-transform w-40 h-10 flex justify-center items-center">
+            Let&apos;s connect
+            </Link>
 
       </div>
     </div>

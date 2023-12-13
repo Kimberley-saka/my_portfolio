@@ -8,12 +8,12 @@ export default function NavBar() {
         <Link to="/" className="flex justify-center items-center rounded-full border-2 border-teal-600
           bg-blueish-gray hover:transform hover:scale-110 transition-transform">
           <img src="/assets/images/kim.jpeg" alt="Kimberley" 
-          className="h-16 w-16 object-contain rounded-full"/>
+          className="h-14 w-14 object-contain rounded-full"/>
         </Link>
       
 
         <div className="hidden md:flex space-x-12 items-center  text-lg" >
-          <Link to="/#projects" className="
+          <Link to="/projects" className="
           hover:transform hover:scale-110 transition-transform">Projects</Link>
           <Link to="/about"
           className="hover:transform hover:scale-110 transition-transform">About</Link>

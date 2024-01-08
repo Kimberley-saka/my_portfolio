@@ -9,7 +9,7 @@ function About() {
       </div>
 
       <div className='flex flex-col bg-galaxy bg-contain md:w-3/4 md:px-8 md:pt-8'>
-        <p>Hi, I&apos;m Kimberley Saka—a passionate Software Engineer from Malawi.
+        <p>Hi, I&apos;m Software Engineer from Malawi.
           I thrive on turning code into solutions, specializing in <span
           className='text-teal-500'>Python</span>, <span className='text-teal-500'>
           JavaScrit</span>, <span className='text-teal-500'>React</span>, <span

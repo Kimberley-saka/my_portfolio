@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Projects from "./Projects"
+import About from "./About"
 
 export default function HomePage() {
   return(
@@ -77,6 +77,10 @@ export default function HomePage() {
         </div>
 
       </div>
+      <div id="about">
+       <About/>
+      </div>
+     
       
       </div>
   )

@@ -36,9 +36,8 @@ export default function Projects() {
 
       <div className="flex flex-col space-y-3 space-x-0 md:flex-row md:space-x-6"> 
       
-        <div className=" h-72 w-1/2"> 
-            <img src="/assets/images/geoportal.png" className="
-            object-cover h-full w-full"></img>
+        <div className="h-72 w-4/5 bg-pink-300"> 
+            <img src="/assets/images/geoportal.png" className=" object-cover h-full w-full"></img>
         </div>
 
         <div className="flex flex-col space-y-3">

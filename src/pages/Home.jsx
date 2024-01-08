@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
-import About from "./About"
-import Projects from "./Projects"
+import { Link } from "react-router-dom";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./contact";
 
 export default function HomePage() {
   return(
@@ -86,6 +87,11 @@ export default function HomePage() {
 
         <Projects/>
 
+      </div>
+
+
+      <div id="contact">
+      <Contact/>
       </div>
      
       

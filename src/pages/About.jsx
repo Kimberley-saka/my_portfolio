@@ -4,11 +4,11 @@ function About() {
   return (
     <div className='flex flex-col-reverse text-lg mt-8 
     md:flex-row  md:mx-28 md:my-14'>
-      <div className='flex md:h-2/3 md:w-1/2 '>
-        <img src='/assets/images/kim.jpeg' className='object-cover'></img>
+      <div className='flex h-72 w-1/2 rounded-3xl md:mt-8 bg-pink-200 '>
+        <img src='/assets/images/kim.jpeg' className='h-full w-full object-cover rounded-3xl'></img>
       </div>
 
-      <div className='flex flex-col bg-galaxy bg-contain md:w-3/4 md:px-8 md:pt-8'>
+      <div className='flex flex-col bg-contain md:w-3/4 md:px-8 md:pt-8'>
         <p>Hi, I&apos;m Software Engineer from Malawi.
           I thrive on turning code into solutions, specializing in <span
           className='text-teal-500'>Python</span>, <span className='text-teal-500'>

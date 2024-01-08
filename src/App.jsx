@@ -14,8 +14,7 @@ export default function App() {
         <Route path="/" element={<HomePage/>} ></Route>
         <Route path="#projects" element={<Projects/>} ></Route>
         <Route path="#about" element={<About/>} ></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
-        <Route path="/geospatial" element={<Geospatial/>}></Route>
+        <Route path="#contact" element={<Contact/>}></Route>
         <Route path="*" element={<h1>Not Found</h1>}></Route>
       </Routes>
     </div>

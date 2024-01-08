@@ -17,7 +17,7 @@ export default function NavBar() {
           hover:transform hover:scale-110 transition-transform">Projects</HashLink>
           <HashLink to="#about"
           className="hover:transform hover:scale-110 transition-transform">About</HashLink>
-          <HashLink to="/contact"
+          <HashLink to="#contact"
           className="hover:transform hover:scale-110 transition-transform">Contact</HashLink>
         </div>
   </div>

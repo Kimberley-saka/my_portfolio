@@ -1,6 +1,6 @@
 import React from 'react'
 
-function contact() {
+function Contact() {
   return (
     <div className='flex flex-col-reverse space-y-6 text-lg md:flex-row md:space-x-40 md:space-y-0 md:px-28
     md:my-24'>

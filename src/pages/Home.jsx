@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import About from "./About"
+import Projects from "./Projects"
 
 export default function HomePage() {
   return(
@@ -79,6 +80,12 @@ export default function HomePage() {
       </div>
       <div id="about">
        <About/>
+      </div>
+
+      <div id="projects">
+
+        <Projects/>
+
       </div>
      
       

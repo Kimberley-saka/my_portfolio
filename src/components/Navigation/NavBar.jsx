@@ -10,15 +10,13 @@ export default function NavBar() {
           <img src="/assets/images/kim.jpeg" alt="Kimberley" 
           className="h-14 w-14 object-contain rounded-full"/>
         </HashLink>
-      
-
         <div className="hidden md:flex space-x-12 items-center  text-lg" >
-          <HashLink to="/projects" className="
+
+          <HashLink to="/" className="hover:transform hover:scale-110 transition-transform">Home</HashLink>
+          <HashLink to="#projects" className="
           hover:transform hover:scale-110 transition-transform">Projects</HashLink>
           <HashLink to="#about"
           className="hover:transform hover:scale-110 transition-transform">About</HashLink>
-          <HashLink to="/geospatial"
-          className="hover:transform hover:scale-110 transition-transform">Geospatial</HashLink>
           <HashLink to="/contact"
           className="hover:transform hover:scale-110 transition-transform">Contact</HashLink>
         </div>

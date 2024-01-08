@@ -38,7 +38,7 @@ export default function Projects() {
       <div className="flex flex-col space-y-3 space-x-0 md:flex-row md:space-x-6"> 
       
         <div className="flex items-start font-bold md:w-2/5"> 
-            Geospatiol Data Portal
+            Geospatial Data Portal
         </div>
 
         <div className="flex flex-col space-y-3">

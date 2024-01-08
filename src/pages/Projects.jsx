@@ -2,9 +2,8 @@
 export default function Projects() {
   return (
     <div className="flex flex-col space-y-8 mt-8 md:space-y-20 md:text-lg md:my-14 md:mx-28">
-      <div className="flex rounded-lg flex-col space-y-4 px-3 py-6 border-2 border-teal-600
-      hover:border-teal-400 transition-colors duration-200 ">
-      <div className="flex flex-row justify-end items-end space-x-3">
+      <div className="flex rounded-lg flex-col space-y-4 px-8 py-6 ">
+      <div className="flex flex-row justify-end items-end space-x-3 md:pr-14">
           <a href="https://github.com/Kimberley-saka/geoportal_backend"
           target="_blank" rel="noopener noreferrer">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,8 +36,9 @@ export default function Projects() {
 
       <div className="flex flex-col space-y-3 space-x-0 md:flex-row md:space-x-6"> 
       
-        <div className="flex items-start font-bold md:w-2/5"> 
-            Geospatial Data Portal
+        <div className=" h-72 w-1/2"> 
+            <img src="/assets/images/geoportal.png" className="
+            object-cover h-full w-full"></img>
         </div>
 
         <div className="flex flex-col space-y-3">

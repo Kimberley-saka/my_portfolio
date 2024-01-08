@@ -3,7 +3,7 @@
 function Contact() {
   return (
     <div className='flex flex-col-reverse space-y-6 text-lg md:flex-row md:space-x-40 md:space-y-0 md:px-28
-    md:my-24'>
+    md:my-40'>
       <form className='flex flex-col space-y-10 w-2/3'>
         <input type='text' placeholder='Your Name' className='border-b bg-transparent
         outline-none'></input>

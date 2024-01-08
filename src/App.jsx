@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/contact";
 import Geospatial from "./pages/Geospatial";
+import Footer from "./components/Navigation/Footer";
 
 export default function App() {
   return(
@@ -17,6 +18,8 @@ export default function App() {
         <Route path="#contact" element={<Contact/>}></Route>
         <Route path="*" element={<h1>Not Found</h1>}></Route>
       </Routes>
+
+      <Footer/>
     </div>
   )
 }

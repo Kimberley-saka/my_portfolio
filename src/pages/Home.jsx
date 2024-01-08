@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
-import Contact from "./contact";
+import Contact from "./Contact";
 
 export default function HomePage() {
   return(

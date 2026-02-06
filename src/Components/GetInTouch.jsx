@@ -1,9 +1,11 @@
+import AnimatedButton from "./AnimatedButton";
+
 function GetInTouch() {
-  return (<>
-  
-  <button>
-    Get in Touch
-  </button>
+  return (
+  <>
+  <AnimatedButton>
+    Get in touch
+  </AnimatedButton>
   </>)
 }
 

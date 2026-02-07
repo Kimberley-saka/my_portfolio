@@ -1,8 +1,9 @@
+// Home page of the portfolio
+
 import NavBar from "../Components/NavBar";
 import HeroSection from "../Components/HeroSection";
 import { motion } from "motion/react";
-import { Component } from "react";
-import { delay } from "motion";
+
 
 const container = {
   hidden: {opacity: 0},

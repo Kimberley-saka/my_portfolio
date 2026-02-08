@@ -6,13 +6,13 @@
     --color-light-orange: #f8f4eb;
     --color-orange-ish: #c7674f;
     --color-dark-blue: #020912;
-    --font-roboto: "Roboto", sans-serif; 
+    --font-roboto: "Roboto"; 
 }
 
 body {
 margin: 0;
 padding: 0;
-font-family: var(--font-roboto), sans-serif;
+font-family: Roboto, sans-serif;
 
 }
 

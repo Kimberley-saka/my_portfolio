@@ -33,8 +33,8 @@ function HeroSection() {
     ">
       <motion.div variants={heroItems} 
       className="flex flex-col gap-3  ">
-        <h1 className="font-bold text-3xl md:text-6xl">
-           Hi, I'm Kimberley.
+        <h1 className="flex gap-2 font-bold text-3xl md:text-6xl">
+           Hi, I'm <p className="text-orange-ish">Kimberley Saka</p>
         </h1>
 
         <p className=" text-3xl font-extralight md:text-5xl">

@@ -31,12 +31,12 @@ const componentItems = {
 
 function Landing() {
     return(<motion.div variants={container} initial="hidden" animate="visible"  
-    className="bg-[url(/bg.jpg)] bg-center bg-cover text-blue-50 h-1/2 md:h-screen ">
+    className="bg-[url(/bg.jpg)] bg-center bg-cover text-white h-120 md:h-screen ">
       <motion.div variants={componentItems} className="h-24">
         <NavBar/>
       </motion.div>
 
-      <motion.div className="h-full">
+      <motion.div variants={componentItems} className="h-full">
         <HeroSection />
       </motion.div>
 

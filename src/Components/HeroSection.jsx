@@ -10,7 +10,8 @@ function HeroSection() {
         <h1
         className="text-3xl text-left md:text-4xl lg:text-5xl 
         font-bold md:text-center">
-            Hello I'm Kimberley, a Geospatial Analyst who also loves to code backend software
+            Hello I'm Kimberley.
+            <p>a Geospatial Analyst who also loves to code backend software</p>
         </h1>
         <div>
           <GetInTouch/>

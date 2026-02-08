@@ -30,7 +30,7 @@ const componentItems = {
 
 function Landing() {
     return(<motion.div variants={container} initial="hidden" animate="visible"  
-    className="bg-[url(/bg4.jpg)] bg-center bg-cover h-screen">
+    className="bg-[url(/bg.jpg)] bg-center bg-cover text-blue-50">
       <motion.div variants={componentItems} className="h-24">
         <NavBar/>
       </motion.div>

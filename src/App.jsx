@@ -9,14 +9,14 @@ function App() {
   
 
   return (
-    <>
+    <div className="flex flex-col">
     <Landing/>
     <AboutMe/>
     <GIS/>
     <Software/>
     <Contact/>
 
-    </>
+    </div>
   )
 }
 

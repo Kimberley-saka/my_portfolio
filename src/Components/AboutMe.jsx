@@ -4,6 +4,10 @@ function AboutMe(){
             <div>
                 My Story
             </div>
+
+            <div>
+                
+            </div>
         </div>
     )
 }

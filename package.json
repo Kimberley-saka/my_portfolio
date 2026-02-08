@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hugeicons/core-free-icons": "^3.1.1",
+    "@hugeicons/react": "^1.1.5",
     "@tailwindcss/vite": "^4.1.18",
     "motion": "^12.33.0",
     "react": "^19.2.0",

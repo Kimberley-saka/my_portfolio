@@ -1,24 +1,58 @@
 import GetInTouch from "./GetInTouch";
 import { motion } from "motion/react";
 
-function HeroSection() {
-    return(
-        <div
-        
-        className="flex flex-col gap-12 px-3 pt-20  h-1/2 justify-center items-center 
-        md:gap-14 md:px-34 md:h-full md:pt-0">
-        <h1
-        className="text-3xl text-left md:text-4xl lg:text-5xl 
-        font-bold md:text-center">
-            Hello I'm Kimberley.
-            <p>a Geospatial Analyst who also loves to code backend software</p>
-        </h1>
-        <div>
-          <GetInTouch/>
-        </div>
-        
+const heroContainer = {
+  hidden: {opacity: 0},
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.4,
+    
+    }
+  }
+}
 
-        </div>
+const heroItems = {
+  hidden: {opacity: 0, y : -50},
+  visible: {
+  opacity: 1, y: 0,
+  transition: {
+  duration: 0.8,
+  ease: "easeOut"
+    }
+  }
+
+}
+
+
+function HeroSection() {
+  return(
+    <motion.div variants={heroContainer} initial="hidden" animate="visible" 
+    className="flex flex-col  gap-5 justify-center 
+    items-center h-full md:mx-20  
+    ">
+      <motion.div variants={heroItems} 
+      className="flex flex-col gap-4  ">
+        <h1 className="font-bold text-3xl md:text-6xl">
+           Hi, I'm Kimberley.
+        </h1>
+
+        <p className="text-5xl">
+          A Geospatial Analyst who also loves to code backend software
+        </p>
+       
+      </motion.div>
+
+      <motion.div variants={heroItems} 
+      className="pt-8 w-full">
+        <GetInTouch/>
+        
+      </motion.div>
+
+      
+     
+
+    </motion.div>
     )
 }
 

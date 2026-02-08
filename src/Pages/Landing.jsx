@@ -3,6 +3,7 @@
 import NavBar from "../Components/NavBar";
 import HeroSection from "../Components/HeroSection";
 import { motion } from "motion/react";
+import GetInTouch from "../Components/GetInTouch";
 
 
 const container = {
@@ -30,12 +31,12 @@ const componentItems = {
 
 function Landing() {
     return(<motion.div variants={container} initial="hidden" animate="visible"  
-    className="bg-[url(/bg.jpg)] bg-center bg-cover text-blue-50">
+    className="bg-[url(/bg.jpg)] bg-center bg-cover text-blue-50 h-1/2 md:h-screen ">
       <motion.div variants={componentItems} className="h-24">
         <NavBar/>
       </motion.div>
 
-      <motion.div variants={componentItems} className="h-full">
+      <motion.div className="h-full">
         <HeroSection />
       </motion.div>
 

@@ -8,9 +8,9 @@ const technologies = ["ArcGIS Pro", "QGIS", "PostGIS", "PostgreSQL", "React", "D
 function Skills() {
   return(
     <div className="flex flex-col  bg-dark-blue md:flex-row justify-center items-center
-    text-light-orange font-light p-8 h-86 gap-5">
+    text-light-orange font-light p-8 h-86 gap-5 md:h-76 md:px-20">
       
-       <div className="w-full md:w-1/2">
+       <div className="w-full md:w-1/3">
           <h1 className="text-orange-ish text-2xl md:text-4xl">
           Languages
         </h1>
@@ -24,7 +24,7 @@ function Skills() {
       </div>
 
 
-      <div className="">
+      <div>
           <h1 className="text-orange-ish text-2xl md:text-4xl">
           Technologies
         </h1>

@@ -1,6 +1,6 @@
 function AboutMe(){
   return(
-    <div className="flex flex-col gap-10 md:h-120 bg-light-orange text-dark-blue
+    <div className="flex flex-col gap-10 md:h-110 bg-light-orange text-dark-blue
     font-light p-8 md:p-20 md:flex-row">
       <div className="text-4xl w-full md:text-6xl text-orange-ish font-bold md:w-1/3">
           About me

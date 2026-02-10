@@ -6,7 +6,27 @@ function GIS() {
             <div>
 
             </div>
-            <div>
+
+            <div className="flex flex-col gap md:gap-20 md:flex-row">
+                <div>
+                    <h2 className="text-2xl md:text-4xl md:ml-20 pt-10">GIS Project 1</h2>
+                    <p className="text-lg md:text-2xl md:ml-20 pt-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                </div>
+
+                <div>
+                    <h2 className="text-2xl md:text-4xl md:ml-20 pt-10">GIS Project 2</h2>
+                    <p className="text-lg md:text-2xl md:ml-20 pt-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                </div>
+
+
+                <div>
+                    <h2 className="text-2xl md:text-4xl md:ml-20 pt-10">GIS Project 3</h2> 
+                    <p className="text-lg md:text-2xl md:ml-20 pt-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>  
+                </div>
+
 
             </div>
         </div>

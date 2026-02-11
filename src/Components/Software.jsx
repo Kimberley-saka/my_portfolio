@@ -1,11 +1,17 @@
 //Software projects page
 
 function Software() {
-    return (
-        <div>
-            Software Component
-        </div>
-    )
+  return (
+    <div>
+      <div className="">
+          
+      </div>
+
+      <div>
+
+      </div>
+    </div>
+  )
 }
 
 

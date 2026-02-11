@@ -15,15 +15,15 @@ function GIS() {
                 </div>
 
                 <div>
-                    <h2 className="text-2xl md:text-4xl md:ml-20 pt-10">GIS Project 2</h2>
+                    <h2 className="text-2xl md:text-3xl md:ml-20 pt-10">GIS Project 2</h2>
                     <p className="text-lg md:text-2xl md:ml-20 pt-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
                 </div>
 
 
                 <div>
-                    <h2 className="text-2xl md:text-4xl md:ml-20 pt-10">GIS Project 3</h2> 
-                    <p className="text-lg md:text-2xl md:ml-20 pt-5">
+                    <h2 className="text-2xl md:text-3xl md:ml-20 pt-10">GIS Project 3</h2> 
+                    <p className="text-lg md:ml-20 pt-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>  
                 </div>
 

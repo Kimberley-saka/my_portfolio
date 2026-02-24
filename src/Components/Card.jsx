@@ -1,13 +1,17 @@
+/*Card component for my projects section*/
+
+import { motion } from "motion/react";
+
 function Card(
   {
-    projectTittle,
+    projectTitle,
     projectDescription,
   }
 ) {
   return (
-    <div className="flex flex-col items-start gap-7">
+    <div className="flex flex-col items-start gap-7 h-full">
   
-            <h2 className="text-2xl md:text-3xl pt-10 font-bold">{projectTittle}</h2>
+            <h2 className="text-2xl md:text-3xl pt-10 font-bold">{projectTitle}</h2>
             <p className="text-lg md:text-xl">
               {projectDescription}</p>
             

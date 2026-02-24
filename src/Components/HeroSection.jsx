@@ -44,7 +44,7 @@ function HeroSection() {
       </motion.div>
 
       <motion.div variants={heroItems} 
-      className="w-full ">
+      className="pt-8 w-full ">
         <GetInTouch/>
         
       </motion.div>

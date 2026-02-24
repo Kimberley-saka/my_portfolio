@@ -3,7 +3,7 @@ import AnimatedButton from "./AnimatedButton";
 
 function GetInTouch() {
   return (
-  <div className="flex flex-row gap-4 items-center font-light">
+  <div className="">
   <AnimatedButton>
     Get in touch
     

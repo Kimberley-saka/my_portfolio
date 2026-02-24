@@ -12,7 +12,8 @@ function AnimatedButton(
 ){
   return(
     <motion.button
-      className={`flex items-center gap-7 px-6 py-2 rounded w-50  md:text-lg md:w-50`}
+      className={`flex items-center gap-7 px-6 py-2 
+        w-50 border border-orange-ish rounded-md md:text-lg`}
       whileHover={{ scale: 1.05, y: -2}}
       whileTap={{scale:0.9, y: 1}}
       transition={{type:"spring", stiffness: 300, damping: 15}}

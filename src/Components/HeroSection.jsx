@@ -44,7 +44,7 @@ function HeroSection() {
       </motion.div>
 
       <motion.div variants={heroItems} 
-      className="pt-8 w-full">
+      className="bg-blue-500 w-full border border-orange-ish rounded-md">
         <GetInTouch/>
         
       </motion.div>

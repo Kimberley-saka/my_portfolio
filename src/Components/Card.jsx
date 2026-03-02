@@ -9,9 +9,9 @@ function Card(
   }
 ) {
   return (
-    <div className="flex flex-col items-start gap-7 h-full">
+    <div className="flex flex-col items-center gap-7 h-full">
   
-            <h2 className="text-2xl md:text-3xl pt-10 font-bold">{projectTitle}</h2>
+            <h2 className="text-2xl w-full md:text-3xl pt-10 font-bold">{projectTitle}</h2>
             <p className="text-lg md:text-xl">
               {projectDescription}</p>
             
@@ -21,7 +21,7 @@ function Card(
                 whileTap={{scale:0.9, y: 1}}
                 transition={{type:"spring", stiffness: 300, damping: 15}}
                 id="#"
-                className="text-light-orange bg-dark-blue w-50 h-10 rounded-md"
+                className="text-light-orange bg-dark-blue w-48 h-10 rounded-md"
                 >
                   View project
               </motion.button>

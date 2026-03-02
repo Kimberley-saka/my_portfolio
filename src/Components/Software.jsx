@@ -19,7 +19,7 @@ function Software() {
     }
   ];
   return (
-    <div className="flex flex-col text-orange-ish bg-dark-blue px-10 py-10 md:py-12">
+    <div className="flex flex-col text-light-orange bg-dark-blue px-10 py-10 md:py-12">
       <h1 className="text-4xl md:text-5xl md:pt-10">
        Software projects</h1>
 

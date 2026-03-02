@@ -15,7 +15,7 @@ function Card(
             <p className="text-lg md:text-xl">
               {projectDescription}</p>
             
-            <div className="w-full flex justify-center items-center">
+            <div className="w-full flex">
               <motion.button
                 whileHover={{ scale: 1.05, y: -2}}
                 whileTap={{scale:0.9, y: 1}}

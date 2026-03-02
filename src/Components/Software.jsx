@@ -23,7 +23,7 @@ function Software() {
       <h1 className="text-4xl md:text-5xl md:pt-10">
        Software projects</h1>
 
-      <div className="flex  justify-center items-center flex-col md:gap-20 md:flex-row">
+      <div className="flex justify-center items-center flex-col md:gap-20 md:flex-row">
        {projects.map((project, index) => 
       
       <Card 

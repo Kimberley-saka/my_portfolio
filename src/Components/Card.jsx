@@ -21,7 +21,7 @@ function Card(
                 whileTap={{scale:0.9, y: 1}}
                 transition={{type:"spring", stiffness: 300, damping: 15}}
                 id="#"
-                className="text-light-orange bg-dark-blue w-48 h-10 rounded-md"
+                className="text-light-orange border border-light-orange w-48 h-10 rounded-md"
                 >
                   View project
               </motion.button>

@@ -19,11 +19,11 @@ function Software() {
     }
   ];
   return (
-    <div className="flex flex-col text-orange-ish bg-dark-blue px-10 md:h-150">
+    <div className="flex flex-col text-orange-ish bg-dark-blue px-10 py-10 md:py-12">
       <h1 className="text-4xl md:text-5xl md:pt-10">
        Software projects</h1>
 
-      <div className="flex  justify-center items-center flex-col bg-blue-600 md:gap-20 md:flex-row">
+      <div className="flex  justify-center items-center flex-col md:gap-20 md:flex-row">
        {projects.map((project, index) => 
       
       <Card 
